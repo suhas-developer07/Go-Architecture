@@ -26,5 +26,5 @@ type BankRepo interface {
 	GetCustomer(id string) (*Customer,error)
 	UpdateCustomer(customer *Customer) error
 	DeleteCustomer(id string) error
-	ListOfCustomers()([]*Customer,error)
+	 ListOfCustomers()([]*Customer,error)
 }

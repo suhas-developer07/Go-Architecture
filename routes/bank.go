@@ -7,8 +7,6 @@ import (
 )
 
 
-
-
 func MountRoutes(repo models.BankRepo)*mux.Router{
    handler := controllers.NewBankHandler(repo)
    
